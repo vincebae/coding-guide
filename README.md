@@ -1,3 +1,3 @@
-# Coding_guide
+# Coding Guides
 
 Collection of personal coding best practices
