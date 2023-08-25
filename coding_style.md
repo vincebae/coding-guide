@@ -1,5 +1,5 @@
-## Coding Style
-### Code Formatter
+# Coding Style
+## Code Formatter
 
 Thanks to the modern IDEs, formatting the codes to follow the style guide is just one click away. 
 It can be done even without doing anything if the IDE is set to apply the formatter on save. 
@@ -11,7 +11,7 @@ Here are some of the popular style guides and code formatters:
 * Clojure
   * [cljstyle](https://github.com/greglook/cljstyle)
 
-### Comments and Documentation
+## Comments and Documentation
 
 Writing comments is a controversial topic. There definitely are good comments and also bad comments. 
 Some people argue that comments are essential for good codes, and some regard comments as failures to express ourselves in code. 
@@ -35,11 +35,11 @@ Especially these information should be well-documented in Javadoc for better rea
   * For database access?
   * Over the network?
 
-#### References
+### References
 * [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
 * [Don't Write Comments](https://www.youtube.com/watch?v=Bf7vDBBOBUA)
 
-### TODO Comments
+## TODO Comments
 
 TODO comments can be unmanageable if not dealt with in a timely manner. 
 When TODO comments are merged to the main branch, it should be explicitly associated with a ticket (either Jira or Github) 
