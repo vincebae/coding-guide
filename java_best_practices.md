@@ -24,14 +24,42 @@ For Java versions that don't support record types yet, guava immutable collectio
 
 ## Prefer Optional for Nullable Objects
 
-NullPointerException is probably one of the most dreaded errors in Java.
-Annotations like @Nullable and @Nonnull can be used to reduce the mistakes when dealing with nulls,
-but Optional is usually a better way to handle the objects that can be null,
-especially with rich fluent APIs like map(), orElse() and ifPresent().
+```NullPointerException``` is probably one of the most dreaded errors in Java.
+Annotations like ```@Nullable``` and ```@Nonnull``` can be used to reduce the mistakes when dealing with ```null```,
+but ```Optional``` is usually a better way to handle the objects that can be ```null```,
+especially with rich fluent APIs like ```map()```, ```orElse()``` and ```ifPresent()```.
+
+However, ```Optional``` also should be used with some caution, obviously. Especially,
+* ```null``` must not be assigned to Optional. Assign ```Optional.empty()``` instead.
+* ```optionalInstance.get()``` must be called when it is guaranteed to have a value.
+* ```Optional``` is also an object, and it can degrade performance if created when not needed. For example,
+```
+// Avoid:
+String str = Optional.ofNullable(someString).orElse("defaultValue");
+
+// Prefer:
+String str = someString != null ? someString : "defaultValue";
+
+// Avoid:
+Optional<SomeClass> someOptional = Optional.ofNullable(someInstance);
+if (someOptional.isPresent()) {
+    // Do something with someOptional.get()
+}
+
+// Also avoid:
+Optional.ofNullable(someInstance)
+    .ifPresent(a -> { /* Do something with a */ });
+
+// Prefer:
+if (someInstance != null) {
+    // Do something with someInstance
+}
+```
 
 #### References
 
 * [Better null-handling with Java Optionals](https://belief-driven-design.com/better-null-handling-with-java-optionals-da974529bae/)
+* [26 Reasons Why Using Optional Correctly Is Not Optional](https://dzone.com/articles/using-optional-correctly-is-not-optional)
 
 
 ## Prefer Constructor Injection and Use DI for Unit Tests
