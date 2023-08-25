@@ -13,3 +13,6 @@ Maintaining good code quality starts with having team convention and consistentl
 
 This repo is my curated collection of coding guides and best practices to help set up coding conventions.
 
+* [Coding Style](./coding_style.md)
+* [General Best Practices](./general_best_practices.md)
+* [Java Best Practices](./java_best_practices.md)
