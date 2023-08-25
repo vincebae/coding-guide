@@ -1,4 +1,8 @@
 # Coding Style
+
+* [Code Formatter](#Code-Formatter)
+* [Comments and Documentation](#Comments-and-Documentation)
+* [TODO Comments](#TODO-Comments)
 ## Code Formatter
 
 Thanks to the modern IDEs, formatting the codes to follow the style guide is just one click away. 
