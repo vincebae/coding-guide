@@ -30,5 +30,14 @@ They have some minor differences,
 These architectural patterns become popular along with Domain Driven Design and Microservice architecture, 
 because [these three are aligned very well altogether](https://www.linkedin.com/pulse/ddd-microservices-hexagonal-when-all-comes-together-ataul-mukit/).
 
+## Screaming Architecture
 
+[Screaming architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) is a term coined by Robert C. Martin (Uncle Bob).
+It is more about how to organize the project, and the core idea is that "Your architectures should tell readers about the system, not about the frameworks".
+
+![Screaming Architecture](https://media.licdn.com/dms/image/D5610AQEbW1vGidYdoQ/image-shrink_800/0/1698735896342?e=1701154800&v=beta&t=IS02CoCooRNJ53pl-J2yM69nI9PgPNYnJcAydVbKVo8)
+
+Here are related articles regarding code organization: 
+* [How to organize your code?](https://kislayverma.com/programming/how-to-organize-your-code/)
+* [Package by Feature, not by Layer](https://medium.com/expedia-group-tech/package-by-feature-not-by-layer-5ba04a070003)
 
