@@ -1,3 +1,5 @@
+![Software Architecture](https://i.redd.it/tn56h6svoql21.jpg)
+
 ## Layered Architecture
 
 [The layered architecture pattern](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html),
@@ -29,6 +31,14 @@ They have some minor differences,
 
 These architectural patterns become popular along with Domain Driven Design and Microservice architecture, 
 because [these three are aligned very well altogether](https://www.linkedin.com/pulse/ddd-microservices-hexagonal-when-all-comes-together-ataul-mukit/).
+
+## Vertical Slice Architecture
+
+![Vertical Slices](https://www.milanjovanovic.tech/blogs/mnw_062/vertical_slice_architecture.png?imwidth=1920)
+
+* https://www.jimmybogard.com/vertical-slice-architecture/
+* https://www.milanjovanovic.tech/blog/vertical-slice-architecture
+* https://www.youtube.com/watch?v=SUiWfhAhgQw
 
 ## Screaming Architecture
 
