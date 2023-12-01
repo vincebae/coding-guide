@@ -16,3 +16,6 @@ This repo is my curated collection of coding guides and best practices to help s
 * [Coding Style](./coding_style.md)
 * [General Best Practices](./general_best_practices.md)
 * [Java Best Practices](./java_best_practices.md)
+
+This page contains my favorite articles and videos for the future references.
+* [Favorites](./favorites.md)
