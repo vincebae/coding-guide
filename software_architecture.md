@@ -40,6 +40,11 @@ because [these three are aligned very well altogether](https://www.linkedin.com/
 * https://www.milanjovanovic.tech/blog/vertical-slice-architecture
 * https://www.youtube.com/watch?v=SUiWfhAhgQw
 
+## Modular Monolith
+
+* https://www.youtube.com/watch?v=5OjqD-ow8GE
+* https://files.gotocon.com/uploads/slides/conference_12/515/original/gotoberlin2018-modular-monoliths.pdf
+
 ## Screaming Architecture
 
 [Screaming architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) is a term coined by Robert C. Martin (Uncle Bob).
