@@ -3,6 +3,7 @@
 ## Architecture
 * [Vertical Slice Architecture](https://www.jimmybogard.com/vertical-slice-architecture/)
 * [System Design Mater Template](https://levelup.gitconnected.com/system-design-master-template-how-to-answer-any-system-design-interview-question-ee5dc332acd5)
+* [Modular Monolith](https://www.youtube.com/watch?v=5OjqD-ow8GE)
 
 
 ## Programming Languages / Coding
